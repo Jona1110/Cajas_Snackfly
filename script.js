@@ -13,8 +13,8 @@
 const PRIZES = [
     {
         id: 'gomibolsa',
-        title: '🍬 Gomibolsa Gratis',
-        description: '¡Disfruta de una deliciosa gomibolsa completamente gratis en tu próxima compra!',
+        title: '🍬 Gomaloca Gratis',
+        description: '¡Disfruta de una deliciosa Gomaloca completamente gratis en tu próxima compra!',
         icon: '🍬',
         type: 'prize'
     },
@@ -28,7 +28,7 @@ const PRIZES = [
     {
         id: 'free_shipping',
         title: '🚚 Envío Gratis',
-        description: '¡Tu próximo pedido llega sin costo de envío! Válido por 30 días.',
+        description: '¡Tu próximo pedido llega sin costo de envío! Válido por 7 días.',
         icon: '🚚',
         type: 'prize'
     },
@@ -41,7 +41,7 @@ const PRIZES = [
     },
     {
         id: 'pepinos_extra',
-        title: '🥒 Pepinos Locos Extra',
+        title: '🥒 PepinSnack Extra',
         description: '¡Recibe una porción extra de Pepinos Locos en tu próximo pedido!',
         icon: '🥒',
         type: 'prize'

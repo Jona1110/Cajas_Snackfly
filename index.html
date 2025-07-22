@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajas Misteriosas - Snackfly</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuentes de Google para tipografía llamativa -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Header con logo y título -->
+        <header class="header">
+            <h1 class="main-title">🍿 SNACKFLY 🍿</h1>
+            <h2 class="subtitle">¡Cajas Misteriosas!</h2>
+            <p class="description">Elige una caja y descubre tu premio sorpresa. ¡Solo puedes abrir una por sesión!</p>
+        </header>
+
+        <!-- Contenedor de las cajas misteriosas -->
+        <main class="mystery-boxes-container">
+            <!-- Caja 1 -->
+            <div class="mystery-box" data-box-id="1">
+                <div class="box-icon">
+                    📦
+                </div>
+                <button class="open-btn" onclick="openBox(1)">
+                    <span>ABRIR</span>
+                </button>
+            </div>
+
+            <!-- Caja 2 -->
+            <div class="mystery-box" data-box-id="2">
+                <div class="box-icon">
+                    🎁
+                </div>
+                <button class="open-btn" onclick="openBox(2)">
+                    <span>ABRIR</span>
+                </button>
+            </div>
+
+            <!-- Caja 3 -->
+            <div class="mystery-box" data-box-id="3">
+                <div class="box-icon">
+                    📦
+                </div>
+                <button class="open-btn" onclick="openBox(3)">
+                    <span>ABRIR</span>
+                </button>
+            </div>
+
+            <!-- Caja 4 -->
+            <div class="mystery-box" data-box-id="4">
+                <div class="box-icon">
+                    🎁
+                </div>
+                <button class="open-btn" onclick="openBox(4)">
+                    <span>ABRIR</span>
+                </button>
+            </div>
+
+            <!-- Caja 5 -->
+            <div class="mystery-box" data-box-id="5">
+                <div class="box-icon">
+                    📦
+                </div>
+                <button class="open-btn" onclick="openBox(5)">
+                    <span>ABRIR</span>
+                </button>
+            </div>
+        </main>
+
+        <!-- Mensaje de estado -->
+        <div class="status-message" id="statusMessage">
+            <!-- Aquí se mostrará si ya se abrió una caja -->
+        </div>
+    </div>
+
+    <!-- Modal para mostrar el premio -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>🎉 ¡Felicidades! 🎉</h3>
+            </div>
+            <div class="modal-body">
+                <div class="prize-icon" id="prizeIcon">
+                    <!-- Icono del premio -->
+                </div>
+                <h4 class="prize-title" id="prizeTitle">
+                    <!-- Título del premio -->
+                </h4>
+                <p class="prize-description" id="prizeDescription">
+                    <!-- Descripción del premio -->
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="close-btn" onclick="closeModal()">
+                    ¡Genial!
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay de caja abierta (para mostrar que ya se abrió una) -->
+    <div class="disabled-overlay" id="disabledOverlay">
+        <div class="disabled-message">
+            <h3>🚫 Ya abriste tu caja misteriosa</h3>
+            <p>¡Vuelve mañana para otra oportunidad!</p>
+        </div>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+

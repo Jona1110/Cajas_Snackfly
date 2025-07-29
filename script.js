@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🎮 Sistema de Cajas Misteriosas iniciado');
     
     // Verificar si ya se abrió una caja en esta sesión
-    //checkSessionStatus();
+    checkSessionStatus();
     
     // Inicializar contexto de audio para efectos de sonido
     initAudioContext();

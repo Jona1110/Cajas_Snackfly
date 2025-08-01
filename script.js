@@ -13,8 +13,8 @@
 const PRIZES = [
     {
         id: 'gomibolsa',
-        title: '🍬 Gomibolsa Gratis',
-        description: '¡Disfruta de una deliciosa gomibolsa completamente gratis en tu próxima compra!',
+        title: '🍬 Gomiloca Gratis',
+        description: '¡Disfruta de una deliciosa gomilica completamente gratis en tu próxima compra!',
         icon: '🍬',
         type: 'prize'
     },
@@ -34,8 +34,8 @@ const PRIZES = [
     },
     {
         id: 'manzanabox_2x1',
-        title: '🍎 ManzanaBox 2x1',
-        description: '¡Lleva dos ManzanaBox y paga solo una! Oferta especial para ti.',
+        title: '🍎 ManzanaBox Supercargada',
+        description: '¡Lleva tu ManzanaBox con doble porción de toppings, premio especial para ti.',
         icon: '🍎',
         type: 'prize'
     },
